@@ -1,0 +1,27 @@
+[user]
+	name = Alex Clemmer
+	email = clemmer.alexander@gmail.com
+[github]
+	user = DrSleep
+	token = 9970ddf523092ff97bdbf398e9db2bb1
+[core]
+	editor = vim
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	pl = log --pretty=oneline --abbrev-commit
+	pld = log --oneline --decorate
+	c = !git add . && git commit -a
+  co = commit
+	s = status
+	rs = !git add . && git reset --hard
+  a = add
+  d = diff
+	dc = diff --cached
+	shf = show --pretty="format:" --name-only
+	sh = show
+  b = branch
+  ch = checkout
+  p = pull
